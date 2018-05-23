@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-
+import 'swiper/dist/css/swiper.css'
 import Home from '../pages/Home'
 import Sport from '../pages/Sport'
 import Travel from '../pages/Travel'

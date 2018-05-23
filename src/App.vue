@@ -8,7 +8,7 @@
         <div class="content" :class="{tabar: tabar}">
             <transition name="slide-left">
                 <router-view></router-view>
-            </transition>  
+            </transition>
         </div>
         <v-tabar></v-tabar>
         <v-sidebar></v-sidebar>
@@ -37,7 +37,7 @@ export default {
 	},
   data () {
     return {
-      
+
     }
   },
   watch: {
@@ -60,9 +60,9 @@ export default {
       title () {
         switch (this.$route.path.split('/')[1]) {
             case '':
-              return "Qu约"
+              return "首页"
             case 'home':
-              return "Qu约"
+              return "首页"
             case 'sport':
               return "约跑"
             case 'travel':

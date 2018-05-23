@@ -3,7 +3,7 @@
 		<div v-if="!loginStatus">
 			<div class="user-h">
 				<div class="avatar u-avatar">
-					<img src="../assets/images/user-img0.jpg" alt="">
+					<img src="https://avatars1.githubusercontent.com/u/18305361?s=460&v=4" alt="">
 				</div>
 				<div class="u-button">
 					<router-link to="/user/login" class="t-login">登录</router-link>
